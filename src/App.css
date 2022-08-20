@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.left-container {
+  background-color: rgb(31, 59, 149);
+  color: #fff;
+  text-align: left;
+}
+
+.main-container {
+  padding: 0 20px;
+  text-align: left;
+}

@@ -1,0 +1,35 @@
+.invoicesBlock {
+  text-align: left;
+  border-radius: 6px;
+  padding: 20px;
+  color: #000;
+  box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.78);
+}
+
+.invoicesTable {
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+}
+
+.invoicesBlock h5 {
+  color: rgb(31, 59, 149);
+  margin-bottom: 10px;
+}
+
+.invoicesTableHeader {
+  font-size: 10px;
+  color: rgb(31, 59, 149);
+  font-weight: 700;
+}
+
+.invoicesTableTr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+  border-bottom: 1px solid rgb(106, 101, 101);
+  padding: 10px 0;
+}
+
+.invoicesTableTr span {
+  font-size: 10px;
+}
